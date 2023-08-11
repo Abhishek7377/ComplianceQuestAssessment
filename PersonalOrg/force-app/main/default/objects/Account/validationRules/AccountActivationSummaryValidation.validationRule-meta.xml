@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountActivationSummaryValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(AND(
+   ISCHANGED(Active_Account__c),
+   Active_Account__c = TRUE,
+   ISBLANK(Account_Activation_Summary__c)
+       ),
+   TRUE,
+   FALSE
+)</errorConditionFormula>
+    <errorMessage>Account Activation Summary Can&apos;t Be Null When Account Is Active</errorMessage>
+</ValidationRule>
