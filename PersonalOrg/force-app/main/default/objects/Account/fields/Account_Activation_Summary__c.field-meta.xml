@@ -3,7 +3,7 @@
     <fullName>Account_Activation_Summary__c</fullName>
     <externalId>false</externalId>
     <label>Account Activation Summary</label>
-    <length>32768</length>
+    <length>3000</length>
     <trackFeedHistory>false</trackFeedHistory>
     <type>LongTextArea</type>
     <visibleLines>3</visibleLines>
