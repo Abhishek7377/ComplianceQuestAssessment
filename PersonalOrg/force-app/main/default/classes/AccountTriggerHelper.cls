@@ -1,4 +1,5 @@
 public class AccountTriggerHelper {
+    //create a contact record on account activation
 	public static void createContactRecord(List<Account> accList)
     {
         List<Contact> contactListToInsert = new List<Contact>();

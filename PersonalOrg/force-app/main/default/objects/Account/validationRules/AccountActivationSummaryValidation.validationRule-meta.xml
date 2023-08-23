@@ -10,5 +10,5 @@
    TRUE,
    FALSE
 )</errorConditionFormula>
-    <errorMessage>Account Activation Summary Can&apos;t Be Null When Account Is Active</errorMessage>
+    <errorMessage>Account Activation Summary Can&apos;t Be Null When Account Is Actived</errorMessage>
 </ValidationRule>

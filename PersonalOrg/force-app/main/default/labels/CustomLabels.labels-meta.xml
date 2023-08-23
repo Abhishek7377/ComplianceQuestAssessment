@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMessage</shortDescription>
+        <value>Account Activation Summary Can&apos;t be blank When Account is Active</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMessage2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMessage2</shortDescription>
+        <value>you don&apos;t have the necessary permissions to create/update the records.</value>
+    </labels>
+</CustomLabels>
